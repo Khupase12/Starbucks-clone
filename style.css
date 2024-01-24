@@ -1,0 +1,443 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgb(234, 243, 243);
+      height: 80px;
+   
+}
+
+ul  {  
+    /* text-decoration: none; */
+    /* text-decoration: none; */
+    /* color:#000000; */
+     margin-right: 180px; 
+     padding-right: 180px;
+    
+   } 
+
+  a{ 
+     color:#000000; 
+     text-decoration: none; 
+     /* margin-left: 100px; */
+   } 
+
+li{ 
+     display: inline; 
+     justify-content: center; 
+     margin:30px; 
+     /* margin-left: 100px; */
+    
+    
+ } 
+
+
+
+ .logo{ 
+     background-image: url("starbuks website_logo.png"); 
+     background-size: cover; 
+     height:45px; 
+     width:45px; 
+     margin-left: 100px;
+   
+     } 
+
+input{
+     height: 40px;  
+     width:  270px;  
+     border:2px solid rgb(239, 232, 232); 
+     border-radius:20px ; 
+     text-align: center; 
+     box-shadow:2px 2px 5px black;
+     background-color: #000000;
+
+}
+
+
+
+.search{
+     display:flex; 
+     justify-content: space-evenly; 
+     align-items: center; 
+     margin-right: 100px;
+     padding-right: 50px;
+}
+
+.searchicon{
+    margin-right: 8px;
+    position: absolute;
+    right:400px;
+    /* height: 10px; */
+    font-size: 20px;
+    color: rgb(127, 137, 146);
+    
+
+}
+
+   
+.usericon{ 
+position: absolute;
+right:90px;  
+font-size: 30px;
+    color: rgb(127, 137, 146);   
+} 
+
+
+/* navbar div completed */
+
+
+/* panel 1 start */
+
+.panel1{
+    background-color:#1E3932;
+    height:80px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    
+  .button{
+    position: absolute;
+    right: 40px;
+    margin-right: 100px;
+    color:#ffffff;
+    border:2px sloid white;
+    border-color: white;
+    border-bottom-color:#ffffff;
+    border-radius: 30px;
+    height: 30px;
+    width:100px;
+    background-color: #1E3932;
+    
+  } 
+    
+    
+
+}
+
+h5{
+    position: absolute;
+    left: 100px;
+    color:white;
+    font-size: larger;
+}
+
+
+h2{
+    color:#1E3932 ;     
+    font-size: 100;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.panel2{
+     display:flex;
+
+    /* margin-left: 30px; */
+}
+
+
+/** panel 3 **/
+
+.panel3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-top: 30px;
+
+}
+
+.logo1{
+    background-image: url("starbuks.clone.1.jpg");
+    background-size:cover;
+    height: 108px;
+    width:108px;
+    /* position: absolute; */
+    /* top: 250px; */
+    /* left: 50px; */
+    border-radius: 60px; 
+    
+    
+}
+
+.logo1 p{
+    /* color:red; */
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.logo2{
+    background-image: url("starbuks.clone.2.jpg");
+    background-size: cover;
+    height:108px;
+    width:108px;
+    /* position: absolute; */
+    /* left:200px; */
+    /* top:250px; */
+    /* margin-left: 30px; */
+     border-radius: 60px; 
+}
+
+.logo2 p{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.logo3{
+    background-image: url("starbuks.clone.3.jpg") ;
+    background-size: cover;
+    height:108px;
+    width:108px;
+    border-radius: 60px; 
+}
+
+.logo3 p{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+
+
+.logo4{
+    background-image: url("starbuks.clone.4.jpg");
+    background-size: cover;
+    height:108px;
+    width:108px;
+    border-radius: 60px; 
+}
+
+.logo4 p{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-left: 2px;
+}
+
+.logo5{
+    background-image: url("starbuks.clone.5.jpg");
+    background-size:cover ;
+    height:108px;
+    width:108px;
+    border-radius: 60px; 
+}
+
+.logo5 p{
+    margin-top: 100px;
+    /* margin-right: 100px; */
+    padding-top: 20px;
+    padding-right: 50px;
+    position:absolute;
+    right: 300px;
+    
+
+}
+
+.logo6 p{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-left: 15px;
+    position:absolute;
+    right: 130px;
+    
+}
+.logo6{
+    background-image: url('starbuks.clone.6.jpg');
+    background-size: cover;
+    height:108px;
+    width:108px;
+    border-radius: 60px; 
+}
+
+.panel4{
+   
+     background-color: rgb(233, 111, 67); 
+     height:200px; 
+     margin-top: 100px; 
+     margin-left: 100px;
+     margin-right:100px;
+     border-radius: 10px;
+   
+}
+
+.panel5{
+    /* display: block; */
+    position: absolute;
+    bottom: 100px;
+}
+
+.logo7{
+    background-image: url("Pumpkin_Spice_frapp_cf5e0fdc04.png");
+    background-size: cover;
+    height:200px;
+    width:90px;
+    margin-top: 50px;
+ 
+    
+}
+
+
+
+#line1{
+    font-size: 1rem;
+    margin-left: 100px;
+    padding-left: 60px;
+    margin-top: 10px;
+    padding-top: 10px;
+    color:rgb(48, 47, 47);
+  
+    
+}
+
+#line2{
+    font-size:20px;
+     margin-left: 100px;
+     padding-left: 60px;
+     padding-top: 10px;
+     margin-bottom: 20px;
+     color:rgb(27, 22, 22);
+    
+    
+     
+     
+ }
+
+ #line3{
+    font-size: 1rem;
+    margin-left: 100px;
+    padding-left: 60px;
+    padding-bottom: 0px;
+    color:rgb(48, 47, 47);
+   
+    
+ }
+
+ #line4{
+    font-size:0.7rem;
+    margin-left: 100px;
+    padding-left: 60px;
+    margin-top: 30px;
+    color:rgb(48, 47, 47);
+
+ }
+
+ #line5{
+    font-size: 1rem;
+    margin-top: 0px;
+    color:rgb(11, 10, 10);
+  
+ }
+
+ #button{
+    background-color: #00754A;
+    color:white;
+    position: absolute;
+    left: 1000px; 
+    bottom:95px; 
+    margin-left: 160px;
+    height:50px;
+    width:200px;
+    border: 2px solid #00754A;
+    border-radius: 100px;
+ }
+
+ .panel6 h2{
+    color:#152823 ;
+ }
+
+
+
+ .card{
+    height:400px;
+    width:400px;
+    display: flex;
+    margin:10px;
+   
+    
+
+ }
+
+ .card1{
+    height:350px;
+    width:350px;
+    margin-left: 100px;
+    box-shadow:5px 5px 10px black;
+    transition:2s ease-in 0.5s;
+    position: relative;
+    top:30px;
+    border-radius:10px;
+  
+ }
+
+ .card2{
+    height:350px;
+    width:350px;
+    margin-left: 100px;
+    box-shadow:5px 5px 10px black;
+    position: relative;
+    top:30px;
+    border-radius: 10px;
+ }
+
+ .card3{
+    height:350px;
+    width:350px;
+    margin-left: 100px;
+    box-shadow:5px 5px 10px black;
+    position: relative;
+    top:30px;
+    border-radius: 10px;
+ }
+ .img1{
+    background-image: url(img.1\ pumkin\ spice\ latte.webp);
+    background-size: cover;
+    height:350px;
+    width:350px;
+    border-radius: 10px;
+ }
+
+ .img2{
+    background-image: url("img.2\ pumpkin.webp");
+    background-size: cover;
+    height:350px;
+    width:350px;
+    border-radius: 10px;
+   
+ }
+
+ .img3{
+    background-image: url("img.3\ pumpkin.webp");
+    background-size: cover;
+    height:350px;
+    width:350px;
+    border-radius: 10px;
+ }
+
+ .des{
+    background-color: blanchedalmond;
+    position: relative;
+    bottom:150px;
+    text-align: center;
+    height: 150px;
+    border-radius: 0px 0px 10px 10px;
+   
+ }
+
+ .panel8{
+    text-align: center;
+ }
+
+ @media(max-width:372px){
+    .navbar{
+       flex-direction: column; 
+       align-content: flex-start;
+ }
+}
